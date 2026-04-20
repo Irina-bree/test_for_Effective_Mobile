@@ -1,0 +1,55 @@
+{
+  "data": {
+    "title": "Выберите магазин",
+    "stores": [
+      {
+        "id": 101,
+        "name": "METRO",
+        "delivery_info": {
+          "type": "standard",
+          "label": "Ближайшая доставка",
+          "value": "сегодня 21:00-23:00",
+          "is_fast_delivery": false
+        },
+        "logo_url": "https://petrushka.ru/logos/metro.png",
+        "external_url": "https://metro-cc.ru/shop"
+      },
+      {
+        "id": 102,
+        "name": "Ашан",
+        "delivery_info": {
+          "type": "standard",
+          "label": "Ближайшая доставка",
+          "value": "сегодня 18:00-20:00",
+          "is_fast_delivery": false
+        },
+        "logo_url": "https://petrushka.ru/logos/auchan.png",
+        "external_url": "https://auchan.ru"
+      },
+      {
+        "id": 103,
+        "name": "ВкусВилл",
+        "delivery_info": {
+          "type": "express",
+          "label": "Быстрая доставка",
+          "value": "от 20 до 60 минут",
+          "is_fast_delivery": true
+        },
+        "logo_url": "https://petrushka.ru/logos/vkusvill.png",
+        "external_url": "https://vkusvill.ru"
+      },
+      {
+        "id": 104,
+        "name": "ВИКТОРИЯ",
+        "delivery_info": {
+          "type": "standard",
+          "label": "Ближайшая доставка",
+          "value": "сегодня 17:00-19:00",
+          "is_fast_delivery": false
+        },
+        "logo_url": "https://petrushka.ru/logos/victoria.png",
+        "external_url": "https://victoria-group.ru"
+      }
+    ]
+  }
+}
